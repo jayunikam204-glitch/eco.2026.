@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoCare 2026 | Plastic Pollution Awareness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">🌍 EcoCare <span>2026</span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#actions">Take Action</a>
+        <a href="#images">Images</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#results">Results</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">SMALL CHANGES • BIG IMPACT</p>
+        <h1>Protect Nature.<br>Reduce Plastic.</h1>
+        <p>Together, we can create a cleaner, greener and healthier planet.</p>
+        <a href="#actions" class="button">Take Action</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="earth">🌍</div>
+        <div class="leaf">🍃</div>
+        <p class="art-caption">Keep Earth Clean</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <h2>About Plastic Pollution</h2>
+        <p>Plastic pollution occurs when plastic waste accumulates in our environment. It can pollute rivers, oceans and land, and harm wildlife.</p>
+        <p>We can help by reducing single-use plastic, reusing items and recycling suitable materials properly.</p>
+      </div>
+    </section>
+
+    <section id="actions" class="section action-section">
+      <div class="section-heading">
+        <h2>Take Action Today</h2>
+        <p>Start with these simple daily habits.</p>
+      </div>
+      <div class="actions">
+        <article class="action-card">
+          <span>01</span>
+          <div>
+            <h3>🛍️ Reuse Bags</h3>
+            <p>Carry a reusable cloth bag while shopping.</p>
+          </div>
+        </article>
+        <article class="action-card">
+          <span>02</span>
+          <div>
+            <h3>💧 Refill Bottles</h3>
+            <p>Choose a reusable water bottle.</p>
+          </div>
+        </article>
+        <article class="action-card">
+          <span>03</span>
+          <div>
+            <h3>♻️ Recycle</h3>
+            <p>Separate waste and recycle suitable materials.</p>
+          </div>
+        </article>
+        <article class="action-card">
+          <span>04</span>
+          <div>
+            <h3>🌱 Spread Awareness</h3>
+            <p>Encourage others to reduce plastic waste.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="images" class="section">
+      <div class="section-heading">
+        <h2>Our Planet, Our Responsibility</h2>
+        <p>Small actions can make a big difference.</p>
+      </div>
+      <div class="photo-gallery">
+        <article class="photo-card">
+          <img src="images/photo1.jpg" alt="Protect nature" loading="lazy">
+          <div class="photo-caption">
+            <h3>Protect Nature</h3>
+            <p>Keep forests, rivers and wildlife safe from plastic waste.</p>
+          </div>
+        </article>
+        <article class="photo-card">
+          <img src="images/photo2.jpg" alt="Reduce plastic" loading="lazy">
+          <div class="photo-caption">
+            <h3>Reduce Plastic</h3>
+            <p>Choose reusable items instead of single-use plastic.</p>
+          </div>
+        </article>
+        <article class="photo-card">
+          <img src="images/photo3.jpg" alt="Keep the environment clean" loading="lazy">
+          <div class="photo-caption">
+            <h3>Keep Earth Clean</h3>
+            <p>Dispose of waste properly and keep public spaces clean.</p>
+          </div>
+        </article>
+        <article class="photo-card">
+          <img src="images/photo4.jpg" alt="Save our planet" loading="lazy">
+          <div class="photo-caption">
+            <h3>Save Our Planet</h3>
+            <p>Every small action helps create a healthier future.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+      <div class="section-heading">
+        <h2>Plastic Pollution Quiz</h2>
+        <p>Answer 10 questions and test your knowledge!</p>
+      </div>
+      <div id="quiz-box" class="quiz-card">
+        <label class="player-label" for="player-name">Your name</label>
+        <input id="player-name" type="text" maxlength="40" placeholder="Enter your name" autocomplete="name">
+        <h3 id="question">Loading question...</h3>
+        <div id="options" class="options"></div>
+        <p id="feedback" class="feedback" aria-live="polite"></p>
+        <div class="quiz-controls">
+          <p id="score">Score: 0 / 10</p>
+          <button id="next-btn" class="button" type="button" hidden>Next Question</button>
+          <button id="restart-btn" class="button" type="button" hidden>Play Again</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section">
+      <div class="section-heading">
+        <h2>Saved Quiz Results</h2>
+        <p>Every answer is stored in the EcoCare database.</p>
+      </div>
+      <div id="results-box" class="quiz-card">
+        <p id="results-empty">No saved attempts yet.</p>
+        <ul id="results-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>🌍 EcoCare 2026</h3>
+    <p>Protect Nature • Reduce Plastic • Save Our Planet</p>
+    <small>Together for a cleaner future.</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

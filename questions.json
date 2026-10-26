@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "Which action helps reduce plastic pollution?",
+    "options": ["Use a reusable cloth bag", "Throw plastic in a river", "Use more plastic bags", "Burn plastic waste"],
+    "answerIndex": 0
+  },
+  {
+    "prompt": "How can plastic harm sea animals?",
+    "options": ["It cleans the ocean", "They may swallow it", "It gives them clean water", "It disappears immediately"],
+    "answerIndex": 1
+  },
+  {
+    "prompt": "What should you do with plastic waste?",
+    "options": ["Throw it on the road", "Put it in a river", "Dispose of it properly", "Leave it in a park"],
+    "answerIndex": 2
+  },
+  {
+    "prompt": "What are microplastics?",
+    "options": ["Tiny plastic particles", "Large paper bags", "Tree leaves", "Metal pieces"],
+    "answerIndex": 0
+  },
+  {
+    "prompt": "Which is a reusable alternative to a disposable bottle?",
+    "options": ["Plastic wrapper", "Reusable water bottle", "Disposable cup", "Plastic straw"],
+    "answerIndex": 1
+  },
+  {
+    "prompt": "What does recycling mean?",
+    "options": ["Littering", "Burning all waste", "Processing materials to use again", "Dumping rubbish"],
+    "answerIndex": 2
+  },
+  {
+    "prompt": "Why should we avoid plastic litter?",
+    "options": ["It cleans water", "It feeds animals", "It disappears quickly", "It pollutes land and water"],
+    "answerIndex": 3
+  },
+  {
+    "prompt": "Which is a good reusable shopping bag?",
+    "options": ["Cloth bag", "Plastic wrapper", "Disposable bag", "Food packaging"],
+    "answerIndex": 0
+  },
+  {
+    "prompt": "How can students help reduce plastic waste?",
+    "options": ["Litter outdoors", "Use reusable items", "Throw waste in drains", "Use more disposable products"],
+    "answerIndex": 1
+  },
+  {
+    "prompt": "What is a good way to reduce plastic waste?",
+    "options": ["Use everything once", "Throw plastic into the ocean", "Reduce, reuse and recycle", "Leave rubbish outside"],
+    "answerIndex": 2
+  }
+]
